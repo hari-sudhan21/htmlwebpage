@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple HTML page</p>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <p>
+            Idhu oru basic HTML webpage.  
+            HTML structure, CSS styling ellam use pannirukkom.
+        </p>
+
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Button Clicked Successfully!");
+        }
+    </script>
+
+</body>
+</html>
